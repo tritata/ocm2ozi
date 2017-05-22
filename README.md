@@ -1,7 +1,7 @@
 # ocm2ozi
 OpenCycleMap tiles downloader & OZI calibration data generator in order to use OpenCycleMap data offline.
 
-This win32 console application based on SOCKET example from StackOverflow.
+This win32 console application based on SOCKET example from StackOverflow. Thus application able to establish connection to OpenCycleMap server on direct internet connections only. Connection through proxy server isn't supported.
 Thunderforest's apikey required to compile the application. Anyone can obtain it by signing up at http://www.thunderforest.com/ then fill it into urlfmt string.
 
 Example of usage:
